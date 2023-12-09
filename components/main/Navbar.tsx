@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-        <a href="https://www.facebook.com/Eftekhar.Ahmed20" className="cursor-pointer h-6 w-6  ">
+        {/* <a href="https://www.facebook.com/Eftekhar.Ahmed20" className="cursor-pointer h-6 w-6  ">
               <img src="/facebook.svg" alt="" />
             </a>
         <a href="https://www.instagram.com/ea_shishir/" className="cursor-pointer h-6 w-6 ">
@@ -47,7 +47,7 @@ const Navbar = () => {
             </a>
         <a href="https://www.facebook.com/Eftekhar.Ahmed20" className="cursor-pointer h-6 w-6  ">
               <img src="/discord.svg" alt="" />
-            </a>
+            </a> */}
         </div>
       </div>
     </div>
