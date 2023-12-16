@@ -2,6 +2,7 @@ import Encryption from "@/components/main/Encryption";
 import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
+import Contact from "@/components/main/contact";
 import Image from "next/image";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <Skills />
         <Encryption />
         <Projects />
+        <Contact/>
       </div>
     </main>
   );

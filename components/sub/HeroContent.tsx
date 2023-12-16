@@ -25,14 +25,14 @@ const HeroContent = () => {
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[10px]">
+          <h1 className="Welcome-text text-[15px]">
            Front-end Web Developer
           </h1>
         </motion.div>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className=" flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
           
@@ -47,7 +47,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-justify text-lg text-gray-400 my-5 max-w-[600px]"
         >
          My self Eftakhar Ahmed Shishir. I&apos;m a Full Stack Web Developer with experience in Website,
           Mobile, and Software development. Check out my projects and skills.
@@ -68,7 +68,7 @@ const HeroContent = () => {
         className="w-full h-full flex justify-center items-center"
       >
         <Image
-          src="/me2 (1).png"
+          src="/Picsart_22-12-23_03-43-30-381 (1).png"
           alt="work icons"
           height={650}
           width={650}
