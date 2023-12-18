@@ -74,7 +74,7 @@ const Navbar = () => {
 
           </div>
           {/*Mobile menu */}
-          <div className="flex items-center justify-between w-full h-auto   border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
+          <div className="flex items-center gap-2 justify-between w-full h-auto   border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
               <a href="#about-me" className="cursor-pointer sm:text-sm font-bold ">
                 About
               </a>
