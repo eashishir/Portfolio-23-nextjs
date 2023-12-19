@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { useState } from 'react';
 import { BsDiscord, BsFacebook, BsInstagram, BsList, BsX } from 'react-icons/bs'
+import { RxInstagramLogo, RxLinkedinLogo } from "react-icons/rx";
 
 const style = {
   navLinks: ' ml-10 uppercase border-b border-white hover:border-[#F6B519] text-xl',
@@ -20,8 +21,8 @@ const Navbar = () => {
             <Image
               src="/Picsart_22-12-23_03-43-30-381 (1).ico"
               alt="logo"
-              width={50}
-              height={50}
+              width={45}
+              height={45}
               className="cursor-pointer hover:animate-slowspin"
             />
           </a>
@@ -48,8 +49,8 @@ const Navbar = () => {
               <a href="https://www.instagram.com/ea_shishir/" className="cursor-pointer h-6 w-6    ">
                 <img src="/instagram.svg" alt="" />
               </a>
-              <a href="https://www.facebook.com/Eftekhar.Ahmed20" className="cursor-pointer h-6 w-6  ">
-                <img src="/discord.svg" alt="" />
+              <a href="https://www.linkedin.com/in/eftakher-the-front-end-web-developer-in-bd/" className="cursor-pointer  ">
+              <RxLinkedinLogo className="text-white text-2xl "/>
               </a>
             </div>
           </div>
@@ -74,7 +75,7 @@ const Navbar = () => {
 
           </div>
           {/*Mobile menu */}
-          <div className="flex items-center gap-2 justify-between w-full h-auto   border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
+          <div className="flex items-center gap-2 justify-between w-full h-auto   border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[6px] py-[10px] rounded-full text-gray-200">
               <a href="#about-me" className="cursor-pointer sm:text-sm font-bold ">
                 About
               </a>
@@ -92,8 +93,8 @@ const Navbar = () => {
               <a href="https://www.instagram.com/ea_shishir/" className=" cursor-pointer h-6 w-6    ">
                 <img src="/instagram.svg" alt="" />
               </a>
-              <a href="https://www.facebook.com/Eftekhar.Ahmed20" className="cursor-pointer h-6 w-6  ">
-                <img src="/discord.svg" alt="" />
+              <a href="https://www.linkedin.com/in/eftakher-the-front-end-web-developer-in-bd/" className="cursor-pointer  ">
+              <RxLinkedinLogo className="text-white text-2xl "/>
               </a>
             </div>
           {/*social media link */}

@@ -7,7 +7,7 @@ import {
     RxLinkedinLogo,
 } from "react-icons/rx";
 
-import { FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -21,11 +21,11 @@ const Footer = () => {
                         <div className="font-bold text-[16px]">Community</div>
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <FaYoutube />
-                            <span className="text-[15px] ml-[6px]">Youtube</span>
+                            <a href="https://www.youtube.com/@eftekharahmedshishir3701"><span className="text-[15px] ml-[6px]">Youtube</span></a>
                         </p>
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <RxGithubLogo />
-                            <span className="text-[15px] ml-[6px]">Github</span>
+                            <a href="https://github.com/eashishir"><span className="text-[15px] ml-[6px]">Github</span></a>
                         </p>
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <RxDiscordLogo />
@@ -35,16 +35,16 @@ const Footer = () => {
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                         <div className="font-bold text-[16px]">Social Media</div>
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                            <FaYoutube />
-                            <span className="text-[15px] ml-[6px]">Instagram</span>
+                            <FaInstagram />
+                           <a href="https://www.instagram.com/eftakher_web_exp/"> <span className="text-[15px] ml-[6px]">Instagram</span></a>
                         </p>
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <RxGithubLogo />
-                            <span className="text-[15px] ml-[6px]">Twitter</span>
+                            <a href="https://twitter.com/efrtakher_web"><span className="text-[15px] ml-[6px]">Twitter</span></a>
                         </p>
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                            <RxDiscordLogo />
-                            <span className="text-[15px] ml-[6px]">Linkedin</span>
+                            <RxLinkedinLogo />
+                            <a href="https://www.linkedin.com/in/eftakher-the-front-end-web-developer-in-bd/"><span className="text-[15px] ml-[6px]">Linkedin</span></a>
                         </p>
                     </div>
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
